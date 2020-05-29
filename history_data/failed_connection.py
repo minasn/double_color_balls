@@ -1,0 +1,5 @@
+failed_connection=['http://kaijiang.500.com/shtml/ssq/05061.shtml', 'http://kaijiang.500.com/shtml/ssq/05152.shtml', 'http://kaijiang.500.com/shtml/ssq/07008.shtml', 'http://kaijiang.500.com/shtml/ssq/07009.shtml', 'http://kaijiang.500.com/shtml/ssq/07010.shtml', 'http://kaijiang.500.com/shtml/ssq/08124.shtml', 'http://kaijiang.500.com/shtml/ssq/10012.shtml', 'http://kaijiang.500.com/shtml/ssq/10013.shtml', 'http://kaijiang.500.com/shtml/ssq/11134.shtml', 'http://kaijiang.500.com/shtml/ssq/11135.shtml', 'http://kaijiang.500.com/shtml/ssq/11136.shtml', 'http://kaijiang.500.com/shtml/ssq/11137.shtml', 'http://kaijiang.500.com/shtml/ssq/11138.shtml', 'http://kaijiang.500.com/shtml/ssq/11139.shtml', 'http://kaijiang.500.com/shtml/ssq/11140.shtml', 'http://kaijiang.500.com/shtml/ssq/11141.shtml', 'http://kaijiang.500.com/shtml/ssq/11142.shtml']
+print(len(failed_connection))
+for con in failed_connection:
+	period='20'+con.split('/')[-1].split('.')[0]
+	print(period)
